@@ -1,0 +1,65 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    background: linear-gradient(rgb(12, 12, 12),rgb(40, 39, 39));
+}
+ul{
+    display: flex;
+    margin-left: 300px;
+}
+li{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 85px;
+    padding-top: 5px;
+    width: 80px;
+    height: 30px;
+}
+    
+
+a{
+    text-decoration: none;
+    color: white
+}
+body{
+    background-image:url('https://www.8ways.ch/application/files/9415/0874/4507/restaurant_1.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1000px;
+}
+.bnav{
+    display: flex;
+    background-color: orange;
+
+}
+.bnav h3{
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bt{
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left: 88px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.bg h1{
+    padding-top: 20%;
+    margin-top: 0%;
+    color: white;
+    margin-left: 50%;
+    margin-right: 0%;
+    font-size: 40px;
+}

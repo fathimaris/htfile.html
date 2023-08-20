@@ -1,0 +1,55 @@
+.h{
+    background-color:black;
+    padding: 8px;
+}
+li{
+    list-style: none;
+    
+    padding: 10px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+}
+.ch{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c1{
+    position:absolute;
+    padding-left: 50px;
+    padding-right: 320px;
+    padding-top: 0px;
+    
+}
+.c2{
+    position:relative;
+    left: 800px;
+    top: 50px;
+   
+}
+.f{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    top: 640px;
+    text-align: center;
+
+
+}
+.bt{
+    background-color: orange;
+    border-radius: 5px;
+    border-color: orange;
+    color: white;
+
+}
+.f1{
+    color: white;
+}
+
