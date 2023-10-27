@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image trans</title>
+    <link rel="stylesheet" href="imgtrans.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">HIRE ME</a></li>
+
+            </ul>
+            <img src="C:\Users\fathi\OneDrive\Desktop\Project\moon-removebg-preview.png" alt="...." id="icon">
+        </nav>
+        <div class="info">
+            <h1>Hi I'm <span>Fathima </span></h1>
+            <p>This is my official portfolio website to show case all my skills <br>related to web development and UI design.</p>
+            <a href="#">Download CV</a>
+        </div>
+        <div class="imgbox">
+            <img src="C:\Users\fathi\OneDrive\Desktop\Project\orange-modified.png" alt="...." class="backimg">
+            <img src="C:\Users\fathi\OneDrive\Desktop\Project\IMG_8972-removebg-preview.png" alt="..." class="mainimg">
+        </div>
+        <div class="sl">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-hackerrank"></i></a>
+
+        </div>
+    </div>
+
+
+    <script>
+         var icon = document.getElementById("icon");
+         icon.onclick = function()
+         {
+            document.body.classList.toggle("darktheme");
+            if(document.body.classList.contains("darktheme"))
+            {
+                icon.src = "C:\Users\fathi\OneDrive\Desktop\Project\moon-removebg-preview.png";
+            }
+            else
+            {
+                icon.src = "C:\Users\fathi\OneDrive\Desktop\Project\sun-removebg-preview (1).png";
+            }
+         }
+    </script>
+</body>
+</html>
